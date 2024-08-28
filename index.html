@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EncriptadorONE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+    <header>
+        <img src="./assets/alura_logo.png" alt="alura_logo">
+
+    </header>
+    <main>
+        <form class="form__section">
+            <textarea class="form__input" name = "instruccion" id="" cols="50" rows="30" placeholder = "Ingresa el texto a ser encriptado">
+            </textarea>
+            <div class="btn__container">
+                <div class="alerta"><img src="./assets/admiracion.png" alt="alerticon"><span>Únicamente letras 
+                    minúsculas y sin acento</span>
+                </div>
+                <div class="submit__container">            
+                    <input class= "form__btn" type="submit" value="Encriptar">
+                    <input class= "form__btn form__btn--sec" type="submit" value="Desencriptar">
+                </div>
+            </div>
+        </form>
+        <aside class="traduccion">
+            <img src="./assets/aside_diamon.png" class="traduccion__png">
+            <div class="traduccion__container">
+                <h3 class="traduccion__titulo">Ningún mensaje fue encontrado</h3>
+                <p class="traduccion__texto">Escribe el texto que deseas Encriptar o Desencriptar</p>
+                <button class="traduc__btn form__btn form__btn--sec hidden"> copiar
+                </button>
+            </div>
+        </aside>
+
+    </main>
+    <script src="./encriptador.js">
+
+    </script>
+
+   
+    
+</body>
+</html>
+
+
+
+
+
+
+
